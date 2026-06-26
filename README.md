@@ -12,8 +12,8 @@ O código faz o que é pedido na atividade: identificar o dia da semana e delega
 
 ```bash
 npm install
-npx tsc #Para compilar o typescript
-node dist/index.js #Para executar o programa de fato
+npm start
+#Para executar o programa de fato
 ```
 
 ## Questões Teóricas
