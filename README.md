@@ -46,6 +46,8 @@ No código o Strategy_Seletor usa o operador ?? para retornar a Null_Object_Stra
 
 ## Entrada Válida
 
+
+```
 Comportamento por Dia da Semana
 
 Seu nome: [Ana]
@@ -63,8 +65,12 @@ Prioridade     : MÉDIA
 Mensagem       : Olá, Ana! Dia de revisão: verifique o andamento da atividade "Implementar relatório".
 =======================================================
 
+```
+
 ## Entrada Inválida
 
+
+```
 Comportamento por Dia da Semana
 
 Seu nome: [Ana]
@@ -81,3 +87,5 @@ Dia consultado : funday
 Prioridade     : BAIXA
 Mensagem       : Nenhuma estratégia definida para "funday". Sem ação a executar.
 ======================================================= 
+
+```
