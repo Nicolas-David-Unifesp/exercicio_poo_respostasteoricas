@@ -32,7 +32,7 @@ export class Quarta_Strategy implements DiaStrategy {
 
 export class Quinta_Strategy implements DiaStrategy {
   execute(user: string, extra: string): string {
-    return `Olá, ${user}! Quinta-feira é dia de colaboração. Compartilhe seu progresso em "${extra}" com alguém da equipe.`;
+    return `Olá, ${user}! Quinta é dia de colaboração. Compartilhe seu progresso em "${extra}" com alguém da equipe.`;
   }
  getPriority(): Prioridade {
     return Prioridade.MEDIA;
@@ -41,7 +41,7 @@ export class Quinta_Strategy implements DiaStrategy {
 
 export class Sexta_Strategy implements DiaStrategy {
   execute(user: string, extra: string): string {
-    return `Olá, ${user}! Sexta-feira: registre o que foi concluído. Conclusão desta semana: "${extra}".`;
+    return `Olá, ${user}! Sexta registre o que foi concluído. Conclusão desta semana: "${extra}".`;
   }
  getPriority(): Prioridade {
     return Prioridade.MEDIA;
