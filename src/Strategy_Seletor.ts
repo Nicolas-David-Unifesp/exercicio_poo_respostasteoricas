@@ -15,5 +15,16 @@ export class Seletor_Strategy {
         ["sabado", new Sabado_Strategy()],
         ["domingo", new Domingo_Strategy()],
     ]);
+
+    // mapa para indice numerico
+    private static readonly indexMap: Map<number, DiaStrategy> = new Map([
+        [0, new Segunda_Strategy()],
+        [1, new Terca_Strategy()],
+        [2, new Quarta_Strategy()],
+        [3,new Quinta_Strategy()],
+        [4,new Sexta_Strategy()],
+        [5,new Sabado_Strategy()],
+        [6,new Domingo_Strategy()],
+    ]);
 }
 
